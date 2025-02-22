@@ -47,37 +47,55 @@
                 <div class="card mb-3">
                   <div class="card-body">
                     <div class="pt-4 pb-2">
-                      <h5 class="card-title text-center pb-0 fs-4">Buat Akun</h5>
+                      <h5 class="card-title text-center pb-0 fs-4">Buat Akun Admin Perusahaan</h5>
                       <p class="text-center small">Masukkan detail perusahaan</p>
                     </div>
 
                     <form class="row g-3 needs-validation" novalidate>
                       <div class="col-12">
-                        <label for="yourName" class="form-label">Nama Perusahaan</label>
-                        <input type="text" name="username" class="form-control" id="yourName" required />
+                        <label for="namaAdmin" class="form-label">Nama Admin</label>
+                        <input type="text" name="namaAdminPerusahaan" class="form-control" id="namaAdmin" required />
+                        <div class="invalid-feedback">Masukkan nama admin perusahaan!</div>
+                      </div>
+
+                      <div class="col-12">
+                        <label for="namaPerusahaan" class="form-label">Nama Perusahaan</label>
+                        <input type="text" name="namaPerusahaan" class="form-control" id="namaPerusahaan" required />
                         <div class="invalid-feedback">Masukkan nama perusahaan Anda!</div>
                       </div>
 
                       <div class="col-12">
-                        <label for="yourEmail" class="form-label">E-mail perusahaan</label>
+                        <label for="emailPerusahaan" class="form-label">E-mail Perusahaan</label>
                         <div class="input-group has-validation">
                           <span class="input-group-text" id="inputGroupPrepend">@</span>
-                          <input type="email" name="email" class="form-control" id="yourEmail" required />
+                          <input type="email" name="emailAdminPerusahaan" class="form-control" id="emailPerusahaan" required />
                           <div class="invalid-feedback">Masukkan E-mail perusahaan Anda!</div>
                         </div>
                       </div>
 
                       <div class="col-12">
-                        <label for="yourPassword" class="form-label">Kata Sandi perusahaan</label>
-                        <input type="password" name="password" class="form-control" id="yourPassword" required />
+                        <label for="alamatPerusahaan" class="form-label">Alamat Perusahaan</label>
+                        <input type="text" name="alamatPerusahaan" class="form-control" id="alamatPerusahaan" required />
+                        <div class="invalid-feedback">Masukkan alamat perusahaan!</div>
+                      </div>
+
+                      <div class="col-12">
+                        <label for="nomorHp" class="form-label">Nomor HP</label>
+                        <input type="text" name="nomorHp" class="form-control" id="nomorHp" required />
+                        <div class="invalid-feedback">Masukkan nomor HP perusahaan!</div>
+                      </div>
+
+                      <div class="col-12">
+                        <label for="passwordPerusahaan" class="form-label">Kata Sandi</label>
+                        <input type="password" name="password" class="form-control" id="passwordPerusahaan" required />
                         <div class="invalid-feedback">Masukkan Kata Sandi Anda!</div>
                       </div>
 
                       <div class="col-12">
-                        <button class="btn btn-primary w-100" type="submit">Buat Akun</button>
+                        <button type="submit" class="btn btn-primary w-100">Buat Akun</button>
                       </div>
                       <div class="col-12">
-                        <p class="small">Akun saya sudah terdaftar <a href="pages-login-as.html"> Kembali</a></p>
+                        <p class="small">Akun saya sudah terdaftar <a href="pages-login-as.html">Kembali</a></p>
                       </div>
                     </form>
                   </div>
